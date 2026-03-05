@@ -14,12 +14,16 @@
 <!-- Navigation -->
 <nav class="navbar" id="navbar">
   <div class="nav-container">
-    <a href="#hero" class="nav-logo">GenAI Workshop</a>
+    <div class="nav-brand">
+      <a href="https://www.sigmetrics.org/sigmetrics2026/" class="nav-sigmetrics"><img src="images/sigmetrics-logo.jpg" alt="ACM SIGMETRICS"></a>
+      <a href="#hero" class="nav-logo">GenAI Workshop</a>
+    </div>
     <button class="nav-toggle" aria-label="Toggle navigation" onclick="document.querySelector('.nav-links').classList.toggle('open')">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links">
       <li><a href="#overview">Overview</a></li>
+      <li><a href="#sponsors">Sponsors</a></li>
       <li><a href="#speakers">Speakers</a></li>
       <li><a href="#schedule">Schedule</a></li>
       <li><a href="#organizers">Organizers</a></li>
@@ -73,6 +77,19 @@
         If there are any questions, please contact
         <a href="mailto:laixis@jhu.edu" class="link">laixis@jhu.edu</a>.
       </p>
+    </div>
+  </div>
+</section>
+
+<!-- Sponsor Section -->
+<section class="section section-alt" id="sponsors">
+  <div class="container">
+    <h2 class="section-title">Sponsors</h2>
+    <div class="sponsors-grid">
+      <a href="https://ai.jhu.edu/" class="sponsor-item">
+        <img class="sponsor-logo-dark" src="images/JHU.logo_horizontal.white.svg" alt="Johns Hopkins University">
+        <span class="sponsor-label">Data Science and AI Institute</span>
+      </a>
     </div>
   </div>
 </section>

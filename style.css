@@ -78,6 +78,36 @@ a:hover {
   height: 64px;
 }
 
+.nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-sigmetrics {
+  display: flex;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 4px;
+  padding: 3px 8px;
+  transition: background 0.3s;
+}
+
+.nav-sigmetrics img {
+  height: 20px;
+  width: auto;
+  display: block;
+}
+
+.nav-sigmetrics:hover {
+  background: #fff;
+}
+
+.navbar.scrolled .nav-sigmetrics {
+  background: transparent;
+  padding: 0;
+}
+
 .nav-logo {
   font-weight: 700;
   font-size: 1.05rem;
@@ -287,6 +317,50 @@ a:hover {
 .link:hover {
   color: var(--color-accent);
   text-decoration-color: var(--color-accent);
+}
+
+/* ===== Sponsors ===== */
+.sponsors-grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  flex-wrap: wrap;
+}
+
+.sponsor-item {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+  text-decoration: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.sponsor-item:hover {
+  opacity: 0.75;
+  transform: translateY(-2px);
+}
+
+.sponsor-item img {
+  height: 56px;
+  width: auto;
+  flex-shrink: 0;
+}
+
+.sponsor-logo-dark {
+  filter: brightness(0) saturate(100%) invert(14%) sepia(45%) saturate(2000%) hue-rotate(190deg) brightness(90%);
+}
+
+.sponsor-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  text-align: left;
+  white-space: nowrap;
+  border-left: 2px solid var(--color-border);
+  padding-left: 16px;
 }
 
 /* ===== Schedule ===== */
