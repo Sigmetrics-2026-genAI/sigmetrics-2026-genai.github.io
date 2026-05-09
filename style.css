@@ -470,13 +470,17 @@ a:hover {
   height: 56px;
   border-radius: 50%;
   background: linear-gradient(135deg, var(--color-primary), var(--color-primary-light));
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 700;
-  font-size: 1rem;
-  letter-spacing: 0.05em;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+  border: 2px solid #fff;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12);
+}
+
+.speaker-avatar-contain {
+  object-fit: contain;
+  background: #fff;
+  padding: 2px;
 }
 
 .speaker-body {
