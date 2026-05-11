@@ -105,7 +105,12 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="https://sitanchen.com/">Sitan Chen</a></h3>
           <p class="speaker-affiliation">Harvard University</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> TBA</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> TBA</p>
+            <p><strong class="speaker-details-label">Biography:</strong> TBA</p>
+          </details>
         </div>
       </div>
 
@@ -114,7 +119,13 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="https://sites.google.com/view/yingbinliang/home">Yingbin Liang</a></h3>
           <p class="speaker-affiliation">The Ohio State University</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> Breaking the Sampling Barrier in Discrete Diffusion: Sharp Theory and Accelerated Sampling</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> Diffusion models have become a central paradigm in modern generative AI, and in discrete domains such as natural language, code, and molecular design, discrete diffusion models have emerged as especially compelling due to their strong empirical performance and their natural fit to discrete data. Despite this rapid empirical progress, the theoretical understanding of their convergence behavior and sampling error remains limited. Characterizing how quickly discrete diffusion samplers approach realistic data distributions is not only a fundamental question, but also a practical one, as it directly guides the design of faster samplers that reduce inference-time computation and power consumption, both of which are critical to the real-world deployability of generative AI systems.</p>
+            <p>In this talk, I will present our recent analytical framework for establishing non-asymptotic error bounds and convergence guarantees for discrete diffusion models. Our results sharpen the current state of the art, as evidenced by matching lower bounds that characterize the fundamental error scaling. Building on these insights, I will introduce our recently developed Gibbs-based accelerated sampler, which, for the first time, breaks the polynomial sampling-complexity barrier in target accuracy and achieves a poly-logarithmic rate for uniform-rate discrete diffusion, thereby substantially reducing sampling cost. I will conclude with open directions at the intersection of foundational theory and practical sampler design, including fine-tuning and test-time design of discrete diffusion models toward downstream objectives and constraints.</p>
+            <p><strong class="speaker-details-label">Biography:</strong> Dr. Yingbin Liang is currently a Professor at the Department of Electrical and Computer Engineering at the Ohio State University (OSU), and a core faculty of the Ohio State Translational Data Analytics Institute (TDAI). She also serves as the Deputy Director of the NSF AI-EDGE Institute and the Co-Lead for Foundational AI Pillar of OSU AI^X Hub. Dr. Liang received the Ph.D. degree in Electrical Engineering from the University of Illinois at Urbana-Champaign in 2005, and served on the faculty of University of Hawaii and Syracuse University before she joined OSU. Dr. Liang's research lies at the intersection of machine learning, large-scale optimization, statistical signal processing, information theory, and wireless networks, with their growing applications to other scientific domains. She received the National Science Foundation CAREER Award and the State of Hawaii Governor Innovation Award in 2009. She also received EURASIP Best Paper Award in 2014. She is currently an Information Theory Society Distinguished Lecturer for 2026&ndash;2027. Dr. Liang is an IEEE fellow.</p>
+          </details>
         </div>
       </div>
 
@@ -123,16 +134,26 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="https://www.guannanqu.com/">Guannan Qu</a></h3>
           <p class="speaker-affiliation">Carnegie Mellon University</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> TBA</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> TBA</p>
+            <p><strong class="speaker-details-label">Biography:</strong> TBA</p>
+          </details>
         </div>
       </div>
 
-      <div class="speaker-card">
+      <div class="speaker-card speaker-card-detailed">
         <img class="speaker-avatar" src="figs/qing-qu.jpeg" alt="Qing Qu">
-        <div class="speaker-body">
+        <div class="speaker-body speaker-talk-body">
           <h3 class="speaker-name"><a href="https://qingqu.engin.umich.edu/">Qing Qu</a></h3>
           <p class="speaker-affiliation">University of Michigan</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> The Effect of Training Task Diversity on In-Context Learning through the Lens of Low-Dimensional Subspaces</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> The transformer's emergent ability to perform in-context learning (ICL) has sparked a wide range of studies designed to understand its underlying mechanism. Existing works often study how training task diversity, defined either as the number of ICL training task vectors or as the number of function classes from which the task vectors are drawn, shapes both the learning dynamics and generalization capabilities of ICL. While both definitions have uncovered many interesting phenomena, many observations under the latter definition remain theoretically unexplained. This paper presents a minimal analytical model under which these phenomena provably emerge from the properties of the pre-training data. By modeling the pre-training task vectors as a mixture of low-rank Gaussians, we show how pre-training task diversity, defined by the number of non-overlapping columns between subspaces that parameterize the covariance matrices, improves both the generalization and optimization trajectory of ICL with linear attention. In particular, we show that our model can explain (i) why pre-training with multiple tasks can shorten the ICL training plateau (Kim et al., 2025) and (ii) why ICL appears to achieve out-of-distribution generalization. We conclude by showing how our results empirically extend to nonlinear transformers and nonlinear function classes. Overall, our work presents a mathematically tractable framework to unify existing observations.</p>
+            <p><strong class="speaker-details-label">Biography:</strong> Qing Qu is an Assistant Professor in EECS at the University of Michigan. He works at the intersection of the foundations of machine learning, numerical optimization, and signal/image processing, with a current focus on the theory of deep generative models and representation learning. Prior to joining Michigan in 2021, he was a Moore-Sloan Data Science Fellow at the Center for Data Science, New York University (2018-2020). He received his Ph.D. in Electrical Engineering from Columbia University in October 2018 and his B.Eng. in Electrical and Computer Engineering from Tsinghua University in July 2011. His work has been recognized with multiple honors, including the Best Student Paper Award at SPARS 2015, a Microsoft PhD Fellowship in Machine Learning (2016), the Best Paper Award at the NeurIPS Diffusion Models Workshop (2023), NSF CAREER Award (2022), Amazon Research Award (AWS AI, 2023), UM CHS Junior Faculty Award (2025), Google Research Scholar Award (2025), and the 1938E Award in Michigan Engineering (2026). He has led and delivered multiple tutorials at ICASSP, CPAL, CVPR, ICCV, and ICML. He was one of the founding organizers and Program Chair for the new Conference on Parsimony &amp; Learning (CPAL), regularly serves as an Area Chair for NeurIPS, ICML, and ICLR, senior area chair for ICASSP'26, and is an Action Editor for TMLR.</p>
+          </details>
         </div>
       </div>
 
@@ -141,7 +162,12 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="https://liyueshen.engin.umich.edu/">Liyue Shen</a></h3>
           <p class="speaker-affiliation">University of Michigan</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> TBA</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> TBA</p>
+            <p><strong class="speaker-details-label">Biography:</strong> TBA</p>
+          </details>
         </div>
       </div>
 
@@ -150,7 +176,12 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="https://sites.google.com/a/illinois.edu/srikant/">R. Srikant</a></h3>
           <p class="speaker-affiliation">University of Illinois Urbana-Champaign</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> TBA</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> TBA</p>
+            <p><strong class="speaker-details-label">Biography:</strong> TBA</p>
+          </details>
         </div>
       </div>
 
@@ -159,7 +190,12 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="http://www.vision.jhu.edu/rvidal.html">René Vidal</a></h3>
           <p class="speaker-affiliation">University of Pennsylvania</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> TBA</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> TBA</p>
+            <p><strong class="speaker-details-label">Biography:</strong> TBA</p>
+          </details>
         </div>
       </div>
 
@@ -168,7 +204,12 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="https://leiying.engin.umich.edu/">Lei Ying</a></h3>
           <p class="speaker-affiliation">University of Michigan</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> TBA</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> TBA</p>
+            <p><strong class="speaker-details-label">Biography:</strong> TBA</p>
+          </details>
         </div>
       </div>
 
@@ -177,7 +218,12 @@
         <div class="speaker-body">
           <h3 class="speaker-name"><a href="https://furong-huang.com/">Furong Huang</a> <span class="badge-tentative">Tentative</span></h3>
           <p class="speaker-affiliation">University of Maryland</p>
-          <p class="speaker-talk-title">Talk title TBA</p>
+          <p class="speaker-talk-title"><strong>Title:</strong> TBA</p>
+          <details class="speaker-details">
+            <summary>Abstract &amp; Bio</summary>
+            <p><strong class="speaker-details-label">Abstract:</strong> TBA</p>
+            <p><strong class="speaker-details-label">Biography:</strong> TBA</p>
+          </details>
         </div>
       </div>
 
